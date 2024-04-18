@@ -4,7 +4,7 @@ info:
   description: API to handle sending queries from kapa.ai to a custom GPT instance and receiving responses.
   version: 1.0.0
 servers:
-  - url: https://api.example.com
+  - url: https://chat.openai.com/g/g-LpF8CWevm-kapagpt-router
     description: Example server endpoint (update this with actual server URL when available)
 paths:
   /sendToGPT:
