@@ -3,6 +3,9 @@ info:
   title: Kapa-GPT Integration API
   description: API to handle sending queries from kapa.ai to a custom GPT instance and receiving responses.
   version: 1.0.0
+servers:
+  - url: https://api.example.com
+    description: Example server endpoint (update this with actual server URL when available)
 paths:
   /sendToGPT:
     post:
